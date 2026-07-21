@@ -1,4 +1,4 @@
-Pandora DUNE ND
+Pandora Metrics
 ===============
 
-Pandora for the ND
+Metrics For Pandora
