@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'PandoraDocs'
-copyright = '2026, Isobel Mawby, Alex Moor, Ryan Cross'
-author = 'Isobel Mawby, Alex Moor, Ryan Cross'
+copyright = '2026, Pandora Developers'
+author = 'Pandora Development Team'
 release = '0.1'
 
 # -- General configuration ---------------------------------------------------
