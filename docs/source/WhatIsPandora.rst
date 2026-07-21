@@ -3,7 +3,7 @@ What Is Pandora?
 
 Pandora is a multi-algorithm reconstruction framework used to solve pattern recognition problems in high energy physics. It has over 100 different algorithms that can be applied in a range of orders to allow users to create custom reconstruction for individual needs. Each step is small, but making sure every one is correct before moving onto the next allows us to get to the correct answer with minimal opportunity for mistakes. It also means we can develop certain areas (e.g. vertex positioning) and slot them right back in once they've been improved.
 
-As it is a dependency free library, Pandora has been used for reconstrction in a number of liquid argon detector particle physics experiments, namely DUNE (Near and Far Detectors), SBND, MicroBooNE, ICARUS, and some linear collider experiments (ILC, CLIC, FCC-ee). We make careful use of both traditional clustering as well as novel AI/ML approaches.
+As it is a dependency free library, Pandora has been used for reconstruction in a number of liquid argon detector particle physics experiments, namely DUNE (Near and Far Detectors), SBND, MicroBooNE, ICARUS, and some linear collider experiments (ILC, CLIC, FCC-ee). We make careful use of both traditional clustering as well as novel AI/ML approaches.
 
 The Event Data Model uses classes to represent the input building blocks (CaloHits, Tracks, MC Particles) and then uses these to created higher-level structures (Clusters, Verticies, Particles). That is to say, it takes in fairly basic data and outputs reconstructed particles to be used for analysis!
 
@@ -22,16 +22,16 @@ The Event Data Model uses classes to represent the input building blocks (CaloHi
 Who We Are
 ----------
 
-PandoraPFA (Particle Flow Algorithm) was orginally created at the University of Cambridge in 2005 by Mark Thompson. John Marshall picked up the project soon after (2009), and things have only grown from there. There is now a stable team based in the UK who are supported by a named, fully funded, and managed STFC project through to 2028. We are now also becoming more international, with groups in the USA and Italy having joined the project.
+PandoraPFA (Particle Flow Algorithm) was originally created at the University of Cambridge in 2005 by Mark Thompson. John Marshall picked up the project soon after (2009), and things have only grown from there. There is now a stable team based in the UK who are supported by a named, fully funded, and managed STFC project through to 2028. We are now also becoming more international, with groups in the USA and Italy having joined the project.
 
-Please find below the names of Pandora collaborators who work on a number of experiments. 
+Please find below the names of Pandora collaborators who work on a number of experiments.
 
 - DUNE FD = Dom Brailsford, John Marshall, Andy Chappell, Alexandra Moor, Alex Wilkinson, Isobel Mawby, Leigh Whitehead, Rhiannon Smith-Jones
-- DUNE ND = Ryan Cross, Maria Brigida Brunetti, Bruce Howard
+- DUNE ND = Maria Brigida Brunetti, Bruce Howard, John Back, Ryan Cross, Gianfranco Ingratta, Manoa Andriamirado
 - protoDUNE = Leigh Whitehead, Dom Brailsford, John Marshall, Andy Chappell, Alexandra Moor, Alex Wilkinson, Isobel Mawby, Rhiannon Smith-Jones
 - SBND = Alex Wilkinson, Andy Chappell, Alexandra Moor, John Marshall, Dom Brailsford
 - ICARUS = Alice Campani, Bruce Howard, Mattia Sotgia, Riccardo Triozzi
-- MicroBooNE = Isobel Mawby, Andy Chappell
+- MicroBooNE = Isobel Mawby, Andy Chappell, Ryan Cross
 
 Institutions contributing to the project: University of Cambridge (UK), University of Warwick (UK), Lancaster University (UK), University of Sheffield (UK), University of Kansas (USA), York University (Canada), Fermilab, INFN Genova (Italy), Università degli Studi di Genova (Italy), INFN Padova (Italy), Università di Padova (Italy).
 
@@ -40,7 +40,7 @@ Institutions contributing to the project: University of Cambridge (UK), Universi
 Standard Event Reconstruction Algorithms
 ----------------------------------------
 
-Chains are lists of algorithms run consecutively in order to tackle a particular reconstruction problem, and there are a huge variety of ways the individual algorithms can be combined to make them. Most detectors have a standard specialised chain to achive optimum performance for their particular setup. Often a chain for tagging cosmic rays (which focuses on finding parent tracks) is applied first and followed by a chain for identifying neutrinos (which focuses on finding the neutrino vertex and resulting charged particles).
+Chains are lists of algorithms run consecutively in order to tackle a particular reconstruction problem, and there are a huge variety of ways the individual algorithms can be combined to make them. Most detectors have a standard specialised chain to achieve optimum performance for their particular setup. Often a chain for tagging cosmic rays (which focuses on finding parent tracks) is applied first and followed by a chain for identifying neutrinos (which focuses on finding the neutrino vertex and resulting charged particles).
 
 Most of these chains will follow a common series of steps at the most basic level for the event reconstruction. A simple summary is given in the table below.
 
