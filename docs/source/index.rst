@@ -13,7 +13,7 @@ Our code can be found on github at `PandoraPFA <https://github.com/PandoraPFA>`_
 Stats
 -----
 - 7 experiments confirmed to be using our code, both liquid argon and linear collider based
-- 3 countires providing key contributions
+- 3 countries providing key contributions
 - 10s of millions of simulated neutrinos reconstructed in the last two years alone
 - 5.5 fully funded FTE positions provided by the STFC (UK) to support the project
 
