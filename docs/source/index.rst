@@ -8,7 +8,7 @@ Welcome to Pandora!
 
 The high energy physics pattern recognition software.
 
-Our code can be found on github at `PandoraPFA <https://github.com/PandoraPFA>`_.
+Our code can be found on GitHub at `PandoraPFA <https://github.com/PandoraPFA>`_.
 
 Stats
 -----

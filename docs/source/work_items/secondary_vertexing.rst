@@ -22,7 +22,7 @@ Training set preparation
 ^^^^^^^^^^^^^^^^^^^^^^^^
 The mode of operation and output is largely the same as for primary vertexing, with the algorithm inheriting much of the implementation from primary vertexing.
 The XML file for training in DUNE can be found
-`here <https://github.com/PandoraPFA/LArReco/blob/master/settings/development/PandoraSettings_SecVtxTrain_DUNEFD.xml>`_,
+`here <https://github.com/PandoraPFA/LArReco/blob/master/settings/development/PandoraSettings_SecVtxTrain_DUNEFD.xml>`__,
 other experimental contexts will be similar.
 Output files from training will be CSV files with the specified prefix, followed by a tag denoting the view.
 Multiple files per view can be safely concatenated together.
@@ -34,7 +34,7 @@ as long as they are consistent between training and inference.
 
 Training the network
 ^^^^^^^^^^^^^^^^^^^^
-`Python Notebooks <https://github.com/PandoraPFA/LArMachineLearningData/tree/master/scripts/deep_learning/vertex>`_
+`Python Notebooks <https://github.com/PandoraPFA/LArMachineLearningData/tree/master/scripts/deep_learning/vertex>`__
 are provided for training the network.
 These notebooks are self-documenting, so only a brief overview will be given here.
 You will need the CSV files created during training set preparation, The :code:`make_images.ipynb` notebook can be run from start to finish,
