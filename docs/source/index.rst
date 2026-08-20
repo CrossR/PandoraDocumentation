@@ -19,6 +19,7 @@ Stats
 
 Paper Highlights
 ----------------
+-  `Neutrino interaction vertex reconstruction in DUNE with Pandora deep learning, 2025 <https://link.springer.com/article/10.1140/epjc/s10052-025-14313-8>`
 -  `Reconstruction of interactions in the ProtoDUNE-SP detector with Pandora, 2023 <https://arxiv.org/abs/2206.14521>`_
 -  `The Pandora multi-algorithm approach to automated pattern recognition of cosmic-ray muon and neutrino events in the MicroBooNE detector, 2018 <https://link.springer.com/article/10.1140/epjc/s10052-017-5481-6>`_
 -  `The Pandora Software Development Kit for Pattern Recognition, 2015 <https://arxiv.org/abs/1506.05348>`_
