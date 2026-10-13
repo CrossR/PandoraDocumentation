@@ -131,7 +131,7 @@ you need to take:
 
     # Make sure to follow the instructions in the README to build the geometry file!
     #
-    # This can be found at https://github.com/PandoraPFA/LArRecoND#geometry-files
+    # This can be found at https://github.com/PandoraPFAOrg/LArRecoND#geometry-files
 
     # Finally, run PandoraInterface with the recommended config file
     #

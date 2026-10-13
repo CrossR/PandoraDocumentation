@@ -20,7 +20,7 @@ Instructions:
 # git submodule update --init --recursive
 #
 # to get the submodules later.
-git clone --recurse-submodules https://github.com/PandoraPFA/PandoraDocumentation.git
+git clone --recurse-submodules https://github.com/PandoraPFAOrg/PandoraDocumentation.git
 cd PandoraDocumentation
 
 # Set up the Python environment and install dependencies

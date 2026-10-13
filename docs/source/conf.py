@@ -47,7 +47,7 @@ epub_show_urls = 'footnote'
 
 # -- Options for extlinks extension -------------------------------------------
 extlinks = {
-    'pr': ('https://github.com/PandoraPFA/LArContent/pull/%s', 'PR #%s'),
-    'tag': ('https://github.com/PandoraPFA/LArContent/tree/%s', 'LArContent %s'),
-    'core': ('https://github.com/PandoraPFA/LArContent/blob/master/%s', '%s')
+    'pr': ('https://github.com/PandoraPFAOrg/LArContent/pull/%s', 'PR #%s'),
+    'tag': ('https://github.com/PandoraPFAOrg/LArContent/tree/%s', 'LArContent %s'),
+    'core': ('https://github.com/PandoraPFAOrg/LArContent/blob/master/%s', '%s')
 }
