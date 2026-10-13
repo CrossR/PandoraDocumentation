@@ -27,7 +27,7 @@ Usage & Configuration
 ^^^^^^^^^^^^^^^^^^^^^
 At the time of writing this algorithm has been released into Pandora software and is active in the LBL workflow of the DUNE HD.
 Training is ongoing for the atmospheric workflow, and for the VD detector. Training instructions can be found
-`here <https://github.com/imawby/Documentation/blob/feature/MLDocs/ML_Documentation/Pandora_ML_Guide.pdf>`___.
+`here <https://github.com/imawby/Documentation/blob/feature/MLDocs/ML_Documentation/Pandora_ML_Guide.pdf>`_.
 To activate the deep learning neutrino hierarchy building algorithm, one needs to replace the :code:`LArNeutrinoHierarchy`
 algorithm block with the following block in the :code:`PandoraSettings_Neutrino_DETECTOR.xml`.
 
@@ -46,4 +46,3 @@ algorithm block with the following block in the :code:`PandoraSettings_Neutrino_
            <TrackTrackClassifierModelName> PandoraNetworkData/PandoraNet_Hierarchy_DUNEFD_HD_TT_Class_v014_15_00.pt</TrackTrackClassifierModelName>
        </tool>
    </algorithm>
-
