@@ -26,6 +26,9 @@ jobs:
         with:
           submodules: recursive
 
+      - name: Update submodules
+        run: git submodule update --remote
+
       - name: Install Doxygen and Graphviz
         run: sudo apt-get install -y doxygen graphviz
 
