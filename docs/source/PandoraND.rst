@@ -78,10 +78,16 @@ Near Detector Build / Workflow Changes
 --------------------------------------
 
 In general, building for the Near Detector is the same as building Pandora in
-its regular standalone mode (as LArSoft is not used for the ND).  The main
-change is cloning and building the :code:`LArRecoND` repository, rather than the
-regular :code:`LArReco` repository. Otherwise, the instructions are the same as
-outlined in the :ref:`building-pandora` page.
+its regular standalone mode (as LArSoft is not used for the ND). However, as the
+ND is developed in its own repository, there is a slight change that the ND build
+uses specific versions of each of the Pandora repositories. Because of this, the
+simplest way to build Pandora for the ND is to use the provided :code:`build.sh`
+scripts in the :code:`LArRecoND/scripts/build` folder, which will automatically
+pull the correct versions of each of the Pandora repositories, and build them in
+the correct order. Ensure to use the correct version of the build script for your
+system, as there are different versions for MacOS vs SL7 vs AL9. The
+:code:`README.md` file in the :code:`LArRecoND` repository contains more
+information about this build process.
 
 One of the main differences at the ND is the input files. As previously
 mentioned, the ND does not use LArSoft, and the files we get from the simulation
