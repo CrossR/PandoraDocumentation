@@ -8,16 +8,23 @@
 
 project = 'PandoraDocs'
 copyright = '2026, Pandora Developers'
-author = 'Pandora Developers'
-release = '0.1.0'
+author = 'Pandora Development Team'
+release = '0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+    'sphinx.ext.extlinks',
+]
 
 templates_path = ['_templates']
-exclude_patterns = []
+exclude_patterns = [
+    "_build",
+    "Thumbs.db",
+    ".DS_Store",
+    "work_items/template.rst",
+]
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
@@ -37,3 +44,10 @@ html_theme_options = {
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# -- Options for extlinks extension -------------------------------------------
+extlinks = {
+    'pr': ('https://github.com/PandoraPFA/LArContent/pull/%s', 'PR #%s'),
+    'tag': ('https://github.com/PandoraPFA/LArContent/tree/%s', 'LArContent %s'),
+    'core': ('https://github.com/PandoraPFA/LArContent/blob/master/%s', '%s')
+}
