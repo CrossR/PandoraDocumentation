@@ -1,7 +1,14 @@
 What Is Pandora?
 ================
 
-Pandora is a multi-algorithm reconstruction framework used to solve pattern recognition problems in high energy physics. It has over 100 different algorithms that can be applied in a range of orders to allow users to create custom reconstruction for individual needs. Each step is small, but making sure every one is correct before moving onto the next allows us to get to the correct answer with minimal opportunity for mistakes. It also means we can develop certain areas (e.g. vertex positioning) and slot them right back in once they've been improved.
+Pandora is a multi-algorithm reconstruction framework used to solve pattern
+recognition problems in high energy physics. It has over 100 different
+algorithms that can be applied in a range of orders to allow users to create
+custom reconstruction for individual needs. Each step is small, but taking
+small, focused steps and gradually building on the context that emerges can help
+to reduce mistakes which are subsequently difficult to undo. It also means we
+can develop certain areas (e.g. vertex positioning) and slot them right back in
+once they've been improved.
 
 As it is a dependency free library, Pandora has been used for reconstruction in a number of liquid argon detector particle physics experiments, namely DUNE (Near and Far Detectors), SBND, MicroBooNE, ICARUS, and some linear collider experiments (ILC, CLIC, FCC-ee). We make careful use of both traditional clustering as well as novel AI/ML approaches.
 
